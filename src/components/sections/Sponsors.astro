@@ -1,0 +1,16 @@
+---
+import Link from '@components/Link.astro'
+import PatrocinadorBox from '@components/PatrocinadorBox.astro'
+import SectionTitle from '@components/SectionTitle.astro';
+---
+
+<section id='sponsors' class='break-words text-white py-24 mx-auto max-w-prose md:px-2 min-h-screen mt-28'>
+	<SectionTitle
+		title='Patrocinadores' />
+
+	<div class='flex flex-row gap-8'>
+		<PatrocinadorBox img='softtek.webp' href='https://www.softtek.com/es-es/' />
+		<PatrocinadorBox img='twitch.webp' href='https://twitch.tv/midudev' />
+		<PatrocinadorBox img='leanmind.svg' href='https://leanmind.es/es/' />
+	</div>
+</section>
